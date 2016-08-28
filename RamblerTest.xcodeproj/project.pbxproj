@@ -189,11 +189,11 @@
 		EF4CDE2C1D7308D5006CBE3C = {
 			isa = PBXGroup;
 			children = (
+				DCCD4A91EE94C55325ED699F /* Frameworks */,
+				8F7CA5F3E38DB4A3DBF4DED6 /* Pods */,
+				EF4CDE361D7308D5006CBE3C /* Products */,
 				EF4CDE371D7308D5006CBE3C /* RamblerTest */,
 				EF4CDE511D7308D5006CBE3C /* RamblerTestTests */,
-				EF4CDE361D7308D5006CBE3C /* Products */,
-				8F7CA5F3E38DB4A3DBF4DED6 /* Pods */,
-				DCCD4A91EE94C55325ED699F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,15 +221,15 @@
 			children = (
 				EF4CDE391D7308D5006CBE3C /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		EF4CDE511D7308D5006CBE3C /* RamblerTestTests */ = {
 			isa = PBXGroup;
 			children = (
 				EF4CDEA21D732813006CBE3C /* BusinessLogicTests */,
-				EF4CDEFC1D73608D006CBE3C /* PresentationsTests */,
 				EF4CDEA61D732A99006CBE3C /* Constants */,
+				EF4CDEFC1D73608D006CBE3C /* PresentationsTests */,
 				EF4CDE541D7308D5006CBE3C /* Info.plist */,
 			);
 			path = RamblerTestTests;
@@ -238,23 +238,23 @@
 		EF4CDE5D1D7308FA006CBE3C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDE5F1D730968006CBE3C /* Constants */,
 				EF4CDE601D73098B006CBE3C /* ApplicationLayer */,
 				EF4CDE611D7309A5006CBE3C /* BusinessLogicLayer */,
-				EF4CDE631D7309BF006CBE3C /* PresentationLayer */,
+				EF4CDE5F1D730968006CBE3C /* Constants */,
 				EF4CDE621D7309B6006CBE3C /* PONSO */,
+				EF4CDE631D7309BF006CBE3C /* PresentationLayer */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		EF4CDE5E1D730907006CBE3C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				EF4CDE441D7308D5006CBE3C /* Assets.xcassets */,
-				EF4CDE461D7308D5006CBE3C /* LaunchScreen.storyboard */,
 				EF4CDE491D7308D5006CBE3C /* Info.plist */,
+				EF4CDE461D7308D5006CBE3C /* LaunchScreen.storyboard */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EF4CDE5F1D730968006CBE3C /* Constants */ = {
@@ -263,7 +263,7 @@
 				EF4CDE681D731114006CBE3C /* YVConstants.h */,
 				EF4CDE691D731114006CBE3C /* YVConstants.m */,
 			);
-			name = Constants;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		EF4CDE601D73098B006CBE3C /* ApplicationLayer */ = {
@@ -271,7 +271,7 @@
 			children = (
 				EF4CDE641D730A0C006CBE3C /* AppDelegate */,
 			);
-			name = ApplicationLayer;
+			path = ApplicationLayer;
 			sourceTree = "<group>";
 		};
 		EF4CDE611D7309A5006CBE3C /* BusinessLogicLayer */ = {
@@ -281,7 +281,7 @@
 				EF4CDE741D731223006CBE3C /* Operations */,
 				EF4CDE731D7311D2006CBE3C /* Services */,
 			);
-			name = BusinessLogicLayer;
+			path = BusinessLogicLayer;
 			sourceTree = "<group>";
 		};
 		EF4CDE621D7309B6006CBE3C /* PONSO */ = {
@@ -290,16 +290,16 @@
 				EF4CDE6B1D731149006CBE3C /* YVNewsModel.h */,
 				EF4CDE6C1D731149006CBE3C /* YVNewsModel.m */,
 			);
-			name = PONSO;
+			path = PONSO;
 			sourceTree = "<group>";
 		};
 		EF4CDE631D7309BF006CBE3C /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEC01D735547006CBE3C /* UserStories */,
 				EF4CDEC11D73555E006CBE3C /* DisplayNewsStory */,
+				EF4CDEC01D735547006CBE3C /* UserStories */,
 			);
-			name = PresentationLayer;
+			path = PresentationLayer;
 			sourceTree = "<group>";
 		};
 		EF4CDE641D730A0C006CBE3C /* AppDelegate */ = {
@@ -308,7 +308,7 @@
 				EF4CDE3B1D7308D5006CBE3C /* AppDelegate.h */,
 				EF4CDE3C1D7308D5006CBE3C /* AppDelegate.m */,
 			);
-			name = AppDelegate;
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		EF4CDE6E1D73116B006CBE3C /* Networking */ = {
@@ -316,7 +316,7 @@
 			children = (
 				EF4CDE6F1D731182006CBE3C /* FixedAFNetworking */,
 			);
-			name = Networking;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		EF4CDE6F1D731182006CBE3C /* FixedAFNetworking */ = {
@@ -325,7 +325,7 @@
 				EF4CDE701D731192006CBE3C /* YVFixedURLSessionManager.h */,
 				EF4CDE711D731192006CBE3C /* YVFixedURLSessionManager.m */,
 			);
-			name = FixedAFNetworking;
+			path = FixedAFNetworking;
 			sourceTree = "<group>";
 		};
 		EF4CDE731D7311D2006CBE3C /* Services */ = {
@@ -335,18 +335,18 @@
 				EF4CDE941D731375006CBE3C /* YVLoadNewsServiceImplementation.h */,
 				EF4CDE951D731375006CBE3C /* YVLoadNewsServiceImplementation.m */,
 			);
-			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 		EF4CDE741D731223006CBE3C /* Operations */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDE781D7312BF006CBE3C /* ParseOperations */,
-				EF4CDE771D7312AB006CBE3C /* NetworkOperations */,
 				EF4CDE761D73129F006CBE3C /* GroupOperations */,
+				EF4CDE771D7312AB006CBE3C /* NetworkOperations */,
+				EF4CDE781D7312BF006CBE3C /* ParseOperations */,
 				EF4CDE751D731295006CBE3C /* SortOperations */,
 			);
-			name = Operations;
+			path = Operations;
 			sourceTree = "<group>";
 		};
 		EF4CDE751D731295006CBE3C /* SortOperations */ = {
@@ -355,31 +355,31 @@
 				EF4CDE901D731356006CBE3C /* YVSortResultsOperation.h */,
 				EF4CDE911D731356006CBE3C /* YVSortResultsOperation.m */,
 			);
-			name = SortOperations;
+			path = SortOperations;
 			sourceTree = "<group>";
 		};
 		EF4CDE761D73129F006CBE3C /* GroupOperations */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDE841D731331006CBE3C /* YVGetAllSortedResults.h */,
-				EF4CDE851D731331006CBE3C /* YVGetAllSortedResults.m */,
 				EF4CDE861D731331006CBE3C /* YVGetAllNewsOperation.h */,
 				EF4CDE871D731331006CBE3C /* YVGetAllNewsOperation.m */,
+				EF4CDE841D731331006CBE3C /* YVGetAllSortedResults.h */,
+				EF4CDE851D731331006CBE3C /* YVGetAllSortedResults.m */,
 				EF4CDE881D731331006CBE3C /* YVGetNewsOperation.h */,
 				EF4CDE891D731331006CBE3C /* YVGetNewsOperation.m */,
 			);
-			name = GroupOperations;
+			path = GroupOperations;
 			sourceTree = "<group>";
 		};
 		EF4CDE771D7312AB006CBE3C /* NetworkOperations */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDE811D731303006CBE3C /* YVLoadDataOperation.h */,
-				EF4CDE821D731303006CBE3C /* YVLoadDataOperation.m */,
 				EF4CDE7A1D7312DD006CBE3C /* FixedNetworkOperations */,
 				EF4CDE791D7312D1006CBE3C /* XMLToDictionary */,
+				EF4CDE811D731303006CBE3C /* YVLoadDataOperation.h */,
+				EF4CDE821D731303006CBE3C /* YVLoadDataOperation.m */,
 			);
-			name = NetworkOperations;
+			path = NetworkOperations;
 			sourceTree = "<group>";
 		};
 		EF4CDE781D7312BF006CBE3C /* ParseOperations */ = {
@@ -388,7 +388,7 @@
 				EF4CDE8D1D73133C006CBE3C /* YVParseOperation.h */,
 				EF4CDE8E1D73133C006CBE3C /* YVParseOperation.m */,
 			);
-			name = ParseOperations;
+			path = ParseOperations;
 			sourceTree = "<group>";
 		};
 		EF4CDE791D7312D1006CBE3C /* XMLToDictionary */ = {
@@ -397,7 +397,7 @@
 				EF4CDE7B1D7312EF006CBE3C /* XMLDictionary.h */,
 				EF4CDE7C1D7312EF006CBE3C /* XMLDictionary.m */,
 			);
-			name = XMLToDictionary;
+			path = XMLToDictionary;
 			sourceTree = "<group>";
 		};
 		EF4CDE7A1D7312DD006CBE3C /* FixedNetworkOperations */ = {
@@ -406,27 +406,27 @@
 				EF4CDE7E1D7312F7006CBE3C /* YVURLSessionOperation.h */,
 				EF4CDE7F1D7312F7006CBE3C /* YVURLSessionOperation.m */,
 			);
-			name = FixedNetworkOperations;
+			path = FixedNetworkOperations;
 			sourceTree = "<group>";
 		};
 		EF4CDEA21D732813006CBE3C /* BusinessLogicTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEB81D733AC8006CBE3C /* ServicesTests */,
 				EF4CDEA31D73281E006CBE3C /* OperationsTests */,
+				EF4CDEB81D733AC8006CBE3C /* ServicesTests */,
 			);
-			name = BusinessLogicTests;
+			path = BusinessLogicTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEA31D73281E006CBE3C /* OperationsTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEB51D7337F9006CBE3C /* SortedResultsOperationTests */,
+				EF4CDEAA1D732F21006CBE3C /* DownloadOperationsTests */,
 				EF4CDEAE1D73350E006CBE3C /* GroupOperationsTests */,
 				EF4CDEAB1D732F34006CBE3C /* ParseOperationTests */,
-				EF4CDEAA1D732F21006CBE3C /* DownloadOperationsTests */,
+				EF4CDEB51D7337F9006CBE3C /* SortedResultsOperationTests */,
 			);
-			name = OperationsTests;
+			path = OperationsTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEA61D732A99006CBE3C /* Constants */ = {
@@ -434,7 +434,7 @@
 			children = (
 				EF4CDEA71D732AB6006CBE3C /* Constants.h */,
 			);
-			name = Constants;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		EF4CDEAA1D732F21006CBE3C /* DownloadOperationsTests */ = {
@@ -442,7 +442,7 @@
 			children = (
 				EF4CDEA41D732875006CBE3C /* YVLoadDataOperationTests.m */,
 			);
-			name = DownloadOperationsTests;
+			path = DownloadOperationsTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEAB1D732F34006CBE3C /* ParseOperationTests */ = {
@@ -450,17 +450,17 @@
 			children = (
 				EF4CDEAC1D732FE8006CBE3C /* YVParseOperationTests.m */,
 			);
-			name = ParseOperationTests;
+			path = ParseOperationTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEAE1D73350E006CBE3C /* GroupOperationsTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEAF1D73352E006CBE3C /* YVGetNewsOperationTests.m */,
 				EF4CDEB11D7335F9006CBE3C /* YVGetAllNewsOperationTests.m */,
 				EF4CDEB31D73373D006CBE3C /* YVGetAllSortedResultsTests.m */,
+				EF4CDEAF1D73352E006CBE3C /* YVGetNewsOperationTests.m */,
 			);
-			name = GroupOperationsTests;
+			path = GroupOperationsTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEB51D7337F9006CBE3C /* SortedResultsOperationTests */ = {
@@ -468,7 +468,7 @@
 			children = (
 				EF4CDEB61D733958006CBE3C /* YVSortResultsOperationTests.m */,
 			);
-			name = SortedResultsOperationTests;
+			path = SortedResultsOperationTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEB81D733AC8006CBE3C /* ServicesTests */ = {
@@ -476,7 +476,7 @@
 			children = (
 				EF4CDEB91D733AE9006CBE3C /* YVLoadNewsServiceTests.m */,
 			);
-			name = ServicesTests;
+			path = ServicesTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEBB1D7354D7006CBE3C /* Storyboard */ = {
@@ -484,7 +484,7 @@
 			children = (
 				EF4CDEEA1D735B69006CBE3C /* DisplayNews.storyboard */,
 			);
-			name = Storyboard;
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		EF4CDEC01D735547006CBE3C /* UserStories */ = {
@@ -492,7 +492,7 @@
 			children = (
 				EF4CDEBB1D7354D7006CBE3C /* Storyboard */,
 			);
-			name = UserStories;
+			path = UserStories;
 			sourceTree = "<group>";
 		};
 		EF4CDEC11D73555E006CBE3C /* DisplayNewsStory */ = {
@@ -500,47 +500,47 @@
 			children = (
 				EF4CDEC21D735576006CBE3C /* Modules */,
 			);
-			name = DisplayNewsStory;
+			path = DisplayNewsStory;
 			sourceTree = "<group>";
 		};
 		EF4CDEC21D735576006CBE3C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEC31D735583006CBE3C /* DisplayShort */,
 				EF4CDEC41D73558A006CBE3C /* DisplayFull */,
+				EF4CDEC31D735583006CBE3C /* DisplayShort */,
 			);
-			name = Modules;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		EF4CDEC31D735583006CBE3C /* DisplayShort */ = {
 			isa = PBXGroup;
 			children = (
 				EF4CDEC81D7355BC006CBE3C /* Interactor */,
-				EF4CDEC71D7355B4006CBE3C /* Router */,
 				EF4CDEC61D7355AB006CBE3C /* Presenter */,
+				EF4CDEC71D7355B4006CBE3C /* Router */,
 				EF4CDEC51D7355A4006CBE3C /* View */,
 			);
-			name = DisplayShort;
+			path = DisplayShort;
 			sourceTree = "<group>";
 		};
 		EF4CDEC41D73558A006CBE3C /* DisplayFull */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEEE1D735C9A006CBE3C /* Router */,
 				EF4CDEED1D735C88006CBE3C /* Presenter */,
+				EF4CDEEE1D735C9A006CBE3C /* Router */,
 				EF4CDEEC1D735C84006CBE3C /* View */,
 			);
-			name = DisplayFull;
+			path = DisplayFull;
 			sourceTree = "<group>";
 		};
 		EF4CDEC51D7355A4006CBE3C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDED41D735644006CBE3C /* TableViewAdapter */,
 				EF4CDED71D735677006CBE3C /* Cells */,
 				EF4CDED51D73564D006CBE3C /* Controllers */,
+				EF4CDED41D735644006CBE3C /* TableViewAdapter */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		EF4CDEC61D7355AB006CBE3C /* Presenter */ = {
@@ -549,27 +549,27 @@
 				EF4CDED11D73563B006CBE3C /* YVDisplayShortListPresenter.h */,
 				EF4CDED21D73563B006CBE3C /* YVDisplayShortListPresenter.m */,
 			);
-			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		EF4CDEC71D7355B4006CBE3C /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDECD1D735633006CBE3C /* YVDisplayShortListRouterInput.h */,
 				EF4CDECE1D735633006CBE3C /* YVDisplayShortListRouter.h */,
 				EF4CDECF1D735633006CBE3C /* YVDisplayShortListRouter.m */,
+				EF4CDECD1D735633006CBE3C /* YVDisplayShortListRouterInput.h */,
 			);
-			name = Router;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		EF4CDEC81D7355BC006CBE3C /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEC91D735629006CBE3C /* YVDisplayShortListInteractorInput.h */,
 				EF4CDECA1D735629006CBE3C /* YVDisplayShortListInteractor.h */,
 				EF4CDECB1D735629006CBE3C /* YVDisplayShortListInteractor.m */,
+				EF4CDEC91D735629006CBE3C /* YVDisplayShortListInteractorInput.h */,
 			);
-			name = Interactor;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		EF4CDED41D735644006CBE3C /* TableViewAdapter */ = {
@@ -578,18 +578,18 @@
 				EF4CDEE41D73596A006CBE3C /* YVDisplayShortListAdapter.h */,
 				EF4CDEE51D73596A006CBE3C /* YVDisplayShortListAdapter.m */,
 			);
-			name = TableViewAdapter;
+			path = TableViewAdapter;
 			sourceTree = "<group>";
 		};
 		EF4CDED51D73564D006CBE3C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEE21D735960006CBE3C /* YVDisplayShortListViewInput.h */,
-				EF4CDEE31D735960006CBE3C /* YVDisplayShortListViewOutput.h */,
 				EF4CDEE71D735988006CBE3C /* YVDisplayShortListViewController.h */,
 				EF4CDEE81D735988006CBE3C /* YVDisplayShortListViewController.m */,
+				EF4CDEE21D735960006CBE3C /* YVDisplayShortListViewInput.h */,
+				EF4CDEE31D735960006CBE3C /* YVDisplayShortListViewOutput.h */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		EF4CDED71D735677006CBE3C /* Cells */ = {
@@ -599,38 +599,38 @@
 				EF4CDEDE1D7357FB006CBE3C /* YVDisplayShortListTableCell.m */,
 				EF4CDEDF1D7357FB006CBE3C /* YVDisplayShortListTableCell.xib */,
 			);
-			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		EF4CDEEC1D735C84006CBE3C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEF71D735CC6006CBE3C /* YVDisplayLongNewsViewInput.h */,
-				EF4CDEF81D735CC6006CBE3C /* YVDisplayLongNewsViewOutput.h */,
 				EF4CDEF91D735CDA006CBE3C /* YVDisplayLongNewsViewController.h */,
 				EF4CDEFA1D735CDA006CBE3C /* YVDisplayLongNewsViewController.m */,
+				EF4CDEF71D735CC6006CBE3C /* YVDisplayLongNewsViewInput.h */,
+				EF4CDEF81D735CC6006CBE3C /* YVDisplayLongNewsViewOutput.h */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		EF4CDEED1D735C88006CBE3C /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEF31D735CBE006CBE3C /* YVDisplayLongNewsPresenterInput.h */,
 				EF4CDEF41D735CBE006CBE3C /* YVDisplayLongNewsPresenter.h */,
 				EF4CDEF51D735CBE006CBE3C /* YVDisplayLongNewsPresenter.m */,
+				EF4CDEF31D735CBE006CBE3C /* YVDisplayLongNewsPresenterInput.h */,
 			);
-			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		EF4CDEEE1D735C9A006CBE3C /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDEEF1D735CB5006CBE3C /* YVDisplayLongNewsRouterInput.h */,
 				EF4CDEF01D735CB5006CBE3C /* YVDisplayLongNewsRouter.h */,
 				EF4CDEF11D735CB5006CBE3C /* YVDisplayLongNewsRouter.m */,
+				EF4CDEEF1D735CB5006CBE3C /* YVDisplayLongNewsRouterInput.h */,
 			);
-			name = Router;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		EF4CDEFC1D73608D006CBE3C /* PresentationsTests */ = {
@@ -639,18 +639,18 @@
 				EF4CDF051D736C8C006CBE3C /* FullModulesTests */,
 				EF4CDEFD1D73609D006CBE3C /* ShortModulesTests */,
 			);
-			name = PresentationsTests;
+			path = PresentationsTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEFD1D73609D006CBE3C /* ShortModulesTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF4CDF061D736CC9006CBE3C /* Router */,
-				EF4CDF001D7360B6006CBE3C /* Presenter */,
 				EF4CDEFF1D7360B0006CBE3C /* Interactor */,
+				EF4CDF001D7360B6006CBE3C /* Presenter */,
+				EF4CDF061D736CC9006CBE3C /* Router */,
 				EF4CDEFE1D7360AC006CBE3C /* View */,
 			);
-			name = ShortModulesTests;
+			path = ShortModulesTests;
 			sourceTree = "<group>";
 		};
 		EF4CDEFE1D7360AC006CBE3C /* View */ = {
@@ -658,7 +658,7 @@
 			children = (
 				EF4CDF091D736E6B006CBE3C /* YVDisplayShortListViewControllerTests.m */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		EF4CDEFF1D7360B0006CBE3C /* Interactor */ = {
@@ -666,7 +666,7 @@
 			children = (
 				EF4CDF011D736192006CBE3C /* YVDisplayShortListInteractorTests.m */,
 			);
-			name = Interactor;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		EF4CDF001D7360B6006CBE3C /* Presenter */ = {
@@ -674,7 +674,7 @@
 			children = (
 				EF4CDF031D736638006CBE3C /* YVDisplayShortListPresenterTests.m */,
 			);
-			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		EF4CDF051D736C8C006CBE3C /* FullModulesTests */ = {
@@ -683,7 +683,7 @@
 				EF4CDF0E1D737242006CBE3C /* Router */,
 				EF4CDF0B1D7370CB006CBE3C /* View */,
 			);
-			name = FullModulesTests;
+			path = FullModulesTests;
 			sourceTree = "<group>";
 		};
 		EF4CDF061D736CC9006CBE3C /* Router */ = {
@@ -691,7 +691,7 @@
 			children = (
 				EF4CDF071D736CDB006CBE3C /* YVDisplayShortListRouterTests.m */,
 			);
-			name = Router;
+			path = Router;
 			sourceTree = "<group>";
 		};
 		EF4CDF0B1D7370CB006CBE3C /* View */ = {
@@ -699,7 +699,7 @@
 			children = (
 				EF4CDF0C1D737124006CBE3C /* YVDisplayLongNewsViewControllerTests.m */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		EF4CDF0E1D737242006CBE3C /* Router */ = {
@@ -707,7 +707,7 @@
 			children = (
 				EF4CDF0F1D73727F006CBE3C /* YVDisplayLongNewsRouterTests.m */,
 			);
-			name = Router;
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -973,6 +973,7 @@
 				EF4CDE471D7308D5006CBE3C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1065,7 +1066,7 @@
 			baseConfigurationReference = 2DB1566DA2CB59B4E1BAC2BC /* Pods-RamblerTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RamblerTest/Info.plist;
+				INFOPLIST_FILE = RamblerTest/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RamblerTest;
@@ -1078,7 +1079,7 @@
 			baseConfigurationReference = B20F1E633FD344F9DE4347ED /* Pods-RamblerTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RamblerTest/Info.plist;
+				INFOPLIST_FILE = RamblerTest/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RamblerTest;
