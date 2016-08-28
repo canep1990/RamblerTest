@@ -14,6 +14,26 @@
 		EF4CDE451D7308D5006CBE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4CDE441D7308D5006CBE3C /* Assets.xcassets */; };
 		EF4CDE481D7308D5006CBE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4CDE461D7308D5006CBE3C /* LaunchScreen.storyboard */; };
 		EF4CDE531D7308D5006CBE3C /* RamblerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE521D7308D5006CBE3C /* RamblerTestTests.m */; };
+		EF4CDE6A1D731114006CBE3C /* YVConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE691D731114006CBE3C /* YVConstants.m */; };
+		EF4CDE6D1D731149006CBE3C /* YVNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE6C1D731149006CBE3C /* YVNewsModel.m */; };
+		EF4CDE721D731192006CBE3C /* YVFixedURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE711D731192006CBE3C /* YVFixedURLSessionManager.m */; };
+		EF4CDE7D1D7312EF006CBE3C /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE7C1D7312EF006CBE3C /* XMLDictionary.m */; };
+		EF4CDE801D7312F7006CBE3C /* YVURLSessionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE7F1D7312F7006CBE3C /* YVURLSessionOperation.m */; };
+		EF4CDE831D731303006CBE3C /* YVLoadDataOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE821D731303006CBE3C /* YVLoadDataOperation.m */; };
+		EF4CDE8A1D731331006CBE3C /* YVGetAllSortedResults.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE851D731331006CBE3C /* YVGetAllSortedResults.m */; };
+		EF4CDE8B1D731331006CBE3C /* YVGetAllNewsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE871D731331006CBE3C /* YVGetAllNewsOperation.m */; };
+		EF4CDE8C1D731331006CBE3C /* YVGetNewsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE891D731331006CBE3C /* YVGetNewsOperation.m */; };
+		EF4CDE8F1D73133C006CBE3C /* YVParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE8E1D73133C006CBE3C /* YVParseOperation.m */; };
+		EF4CDE921D731356006CBE3C /* YVSortResultsOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE911D731356006CBE3C /* YVSortResultsOperation.m */; };
+		EF4CDE961D731375006CBE3C /* YVLoadNewsServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE951D731375006CBE3C /* YVLoadNewsServiceImplementation.m */; };
+		EF4CDEA51D732875006CBE3C /* YVLoadDataOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDEA41D732875006CBE3C /* YVLoadDataOperationTests.m */; };
+		EF4CDEA91D732D04006CBE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4CDEA81D732D04006CBE3C /* Main.storyboard */; };
+		EF4CDEAD1D732FE8006CBE3C /* YVParseOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDEAC1D732FE8006CBE3C /* YVParseOperationTests.m */; };
+		EF4CDEB01D73352E006CBE3C /* YVGetNewsOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDEAF1D73352E006CBE3C /* YVGetNewsOperationTests.m */; };
+		EF4CDEB21D7335F9006CBE3C /* YVGetAllNewsOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDEB11D7335F9006CBE3C /* YVGetAllNewsOperationTests.m */; };
+		EF4CDEB41D73373D006CBE3C /* YVGetAllSortedResultsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDEB31D73373D006CBE3C /* YVGetAllSortedResultsTests.m */; };
+		EF4CDEB71D733958006CBE3C /* YVSortResultsOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDEB61D733958006CBE3C /* YVSortResultsOperationTests.m */; };
+		EF4CDEBA1D733AE9006CBE3C /* YVLoadNewsServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDEB91D733AE9006CBE3C /* YVLoadNewsServiceTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +63,40 @@
 		EF4CDE4E1D7308D5006CBE3C /* RamblerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamblerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4CDE521D7308D5006CBE3C /* RamblerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RamblerTestTests.m; sourceTree = "<group>"; };
 		EF4CDE541D7308D5006CBE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4CDE681D731114006CBE3C /* YVConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVConstants.h; sourceTree = "<group>"; };
+		EF4CDE691D731114006CBE3C /* YVConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVConstants.m; sourceTree = "<group>"; };
+		EF4CDE6B1D731149006CBE3C /* YVNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVNewsModel.h; sourceTree = "<group>"; };
+		EF4CDE6C1D731149006CBE3C /* YVNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVNewsModel.m; sourceTree = "<group>"; };
+		EF4CDE701D731192006CBE3C /* YVFixedURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVFixedURLSessionManager.h; sourceTree = "<group>"; };
+		EF4CDE711D731192006CBE3C /* YVFixedURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVFixedURLSessionManager.m; sourceTree = "<group>"; };
+		EF4CDE7B1D7312EF006CBE3C /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		EF4CDE7C1D7312EF006CBE3C /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		EF4CDE7E1D7312F7006CBE3C /* YVURLSessionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVURLSessionOperation.h; sourceTree = "<group>"; };
+		EF4CDE7F1D7312F7006CBE3C /* YVURLSessionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVURLSessionOperation.m; sourceTree = "<group>"; };
+		EF4CDE811D731303006CBE3C /* YVLoadDataOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVLoadDataOperation.h; sourceTree = "<group>"; };
+		EF4CDE821D731303006CBE3C /* YVLoadDataOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVLoadDataOperation.m; sourceTree = "<group>"; };
+		EF4CDE841D731331006CBE3C /* YVGetAllSortedResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVGetAllSortedResults.h; sourceTree = "<group>"; };
+		EF4CDE851D731331006CBE3C /* YVGetAllSortedResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVGetAllSortedResults.m; sourceTree = "<group>"; };
+		EF4CDE861D731331006CBE3C /* YVGetAllNewsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVGetAllNewsOperation.h; sourceTree = "<group>"; };
+		EF4CDE871D731331006CBE3C /* YVGetAllNewsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVGetAllNewsOperation.m; sourceTree = "<group>"; };
+		EF4CDE881D731331006CBE3C /* YVGetNewsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVGetNewsOperation.h; sourceTree = "<group>"; };
+		EF4CDE891D731331006CBE3C /* YVGetNewsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVGetNewsOperation.m; sourceTree = "<group>"; };
+		EF4CDE8D1D73133C006CBE3C /* YVParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVParseOperation.h; sourceTree = "<group>"; };
+		EF4CDE8E1D73133C006CBE3C /* YVParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVParseOperation.m; sourceTree = "<group>"; };
+		EF4CDE901D731356006CBE3C /* YVSortResultsOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVSortResultsOperation.h; sourceTree = "<group>"; };
+		EF4CDE911D731356006CBE3C /* YVSortResultsOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVSortResultsOperation.m; sourceTree = "<group>"; };
+		EF4CDE931D731375006CBE3C /* YVLoadNewsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVLoadNewsService.h; sourceTree = "<group>"; };
+		EF4CDE941D731375006CBE3C /* YVLoadNewsServiceImplementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVLoadNewsServiceImplementation.h; sourceTree = "<group>"; };
+		EF4CDE951D731375006CBE3C /* YVLoadNewsServiceImplementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVLoadNewsServiceImplementation.m; sourceTree = "<group>"; };
+		EF4CDEA41D732875006CBE3C /* YVLoadDataOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVLoadDataOperationTests.m; sourceTree = "<group>"; };
+		EF4CDEA71D732AB6006CBE3C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EF4CDEA81D732D04006CBE3C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF4CDEAC1D732FE8006CBE3C /* YVParseOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVParseOperationTests.m; sourceTree = "<group>"; };
+		EF4CDEAF1D73352E006CBE3C /* YVGetNewsOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVGetNewsOperationTests.m; sourceTree = "<group>"; };
+		EF4CDEB11D7335F9006CBE3C /* YVGetAllNewsOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVGetAllNewsOperationTests.m; sourceTree = "<group>"; };
+		EF4CDEB31D73373D006CBE3C /* YVGetAllSortedResultsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVGetAllSortedResultsTests.m; sourceTree = "<group>"; };
+		EF4CDEB61D733958006CBE3C /* YVSortResultsOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVSortResultsOperationTests.m; sourceTree = "<group>"; };
+		EF4CDEB91D733AE9006CBE3C /* YVLoadNewsServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVLoadNewsServiceTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +180,8 @@
 		EF4CDE511D7308D5006CBE3C /* RamblerTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				EF4CDEA61D732A99006CBE3C /* Constants */,
+				EF4CDEA21D732813006CBE3C /* BusinessLogicTests */,
 				EF4CDE521D7308D5006CBE3C /* RamblerTestTests.m */,
 				EF4CDE541D7308D5006CBE3C /* Info.plist */,
 			);
@@ -157,6 +213,8 @@
 		EF4CDE5F1D730968006CBE3C /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				EF4CDE681D731114006CBE3C /* YVConstants.h */,
+				EF4CDE691D731114006CBE3C /* YVConstants.m */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -172,6 +230,9 @@
 		EF4CDE611D7309A5006CBE3C /* BusinessLogicLayer */ = {
 			isa = PBXGroup;
 			children = (
+				EF4CDE6E1D73116B006CBE3C /* Networking */,
+				EF4CDE741D731223006CBE3C /* Operations */,
+				EF4CDE731D7311D2006CBE3C /* Services */,
 			);
 			name = BusinessLogicLayer;
 			sourceTree = "<group>";
@@ -179,6 +240,8 @@
 		EF4CDE621D7309B6006CBE3C /* PONSO */ = {
 			isa = PBXGroup;
 			children = (
+				EF4CDE6B1D731149006CBE3C /* YVNewsModel.h */,
+				EF4CDE6C1D731149006CBE3C /* YVNewsModel.m */,
 			);
 			name = PONSO;
 			sourceTree = "<group>";
@@ -186,6 +249,7 @@
 		EF4CDE631D7309BF006CBE3C /* PresentationLayer */ = {
 			isa = PBXGroup;
 			children = (
+				EF4CDEA81D732D04006CBE3C /* Main.storyboard */,
 			);
 			name = PresentationLayer;
 			sourceTree = "<group>";
@@ -197,6 +261,174 @@
 				EF4CDE3C1D7308D5006CBE3C /* AppDelegate.m */,
 			);
 			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EF4CDE6E1D73116B006CBE3C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE6F1D731182006CBE3C /* FixedAFNetworking */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		EF4CDE6F1D731182006CBE3C /* FixedAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE701D731192006CBE3C /* YVFixedURLSessionManager.h */,
+				EF4CDE711D731192006CBE3C /* YVFixedURLSessionManager.m */,
+			);
+			name = FixedAFNetworking;
+			sourceTree = "<group>";
+		};
+		EF4CDE731D7311D2006CBE3C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE931D731375006CBE3C /* YVLoadNewsService.h */,
+				EF4CDE941D731375006CBE3C /* YVLoadNewsServiceImplementation.h */,
+				EF4CDE951D731375006CBE3C /* YVLoadNewsServiceImplementation.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		EF4CDE741D731223006CBE3C /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE781D7312BF006CBE3C /* ParseOperations */,
+				EF4CDE771D7312AB006CBE3C /* NetworkOperations */,
+				EF4CDE761D73129F006CBE3C /* GroupOperations */,
+				EF4CDE751D731295006CBE3C /* SortOperations */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		EF4CDE751D731295006CBE3C /* SortOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE901D731356006CBE3C /* YVSortResultsOperation.h */,
+				EF4CDE911D731356006CBE3C /* YVSortResultsOperation.m */,
+			);
+			name = SortOperations;
+			sourceTree = "<group>";
+		};
+		EF4CDE761D73129F006CBE3C /* GroupOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE841D731331006CBE3C /* YVGetAllSortedResults.h */,
+				EF4CDE851D731331006CBE3C /* YVGetAllSortedResults.m */,
+				EF4CDE861D731331006CBE3C /* YVGetAllNewsOperation.h */,
+				EF4CDE871D731331006CBE3C /* YVGetAllNewsOperation.m */,
+				EF4CDE881D731331006CBE3C /* YVGetNewsOperation.h */,
+				EF4CDE891D731331006CBE3C /* YVGetNewsOperation.m */,
+			);
+			name = GroupOperations;
+			sourceTree = "<group>";
+		};
+		EF4CDE771D7312AB006CBE3C /* NetworkOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE811D731303006CBE3C /* YVLoadDataOperation.h */,
+				EF4CDE821D731303006CBE3C /* YVLoadDataOperation.m */,
+				EF4CDE7A1D7312DD006CBE3C /* FixedNetworkOperations */,
+				EF4CDE791D7312D1006CBE3C /* XMLToDictionary */,
+			);
+			name = NetworkOperations;
+			sourceTree = "<group>";
+		};
+		EF4CDE781D7312BF006CBE3C /* ParseOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE8D1D73133C006CBE3C /* YVParseOperation.h */,
+				EF4CDE8E1D73133C006CBE3C /* YVParseOperation.m */,
+			);
+			name = ParseOperations;
+			sourceTree = "<group>";
+		};
+		EF4CDE791D7312D1006CBE3C /* XMLToDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE7B1D7312EF006CBE3C /* XMLDictionary.h */,
+				EF4CDE7C1D7312EF006CBE3C /* XMLDictionary.m */,
+			);
+			name = XMLToDictionary;
+			sourceTree = "<group>";
+		};
+		EF4CDE7A1D7312DD006CBE3C /* FixedNetworkOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE7E1D7312F7006CBE3C /* YVURLSessionOperation.h */,
+				EF4CDE7F1D7312F7006CBE3C /* YVURLSessionOperation.m */,
+			);
+			name = FixedNetworkOperations;
+			sourceTree = "<group>";
+		};
+		EF4CDEA21D732813006CBE3C /* BusinessLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEB81D733AC8006CBE3C /* ServicesTests */,
+				EF4CDEA31D73281E006CBE3C /* OperationsTests */,
+			);
+			name = BusinessLogicTests;
+			sourceTree = "<group>";
+		};
+		EF4CDEA31D73281E006CBE3C /* OperationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEB51D7337F9006CBE3C /* SortedResultsOperationTests */,
+				EF4CDEAE1D73350E006CBE3C /* GroupOperationsTests */,
+				EF4CDEAB1D732F34006CBE3C /* ParseOperationTests */,
+				EF4CDEAA1D732F21006CBE3C /* DownloadOperationsTests */,
+			);
+			name = OperationsTests;
+			sourceTree = "<group>";
+		};
+		EF4CDEA61D732A99006CBE3C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEA71D732AB6006CBE3C /* Constants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		EF4CDEAA1D732F21006CBE3C /* DownloadOperationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEA41D732875006CBE3C /* YVLoadDataOperationTests.m */,
+			);
+			name = DownloadOperationsTests;
+			sourceTree = "<group>";
+		};
+		EF4CDEAB1D732F34006CBE3C /* ParseOperationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEAC1D732FE8006CBE3C /* YVParseOperationTests.m */,
+			);
+			name = ParseOperationTests;
+			sourceTree = "<group>";
+		};
+		EF4CDEAE1D73350E006CBE3C /* GroupOperationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEAF1D73352E006CBE3C /* YVGetNewsOperationTests.m */,
+				EF4CDEB11D7335F9006CBE3C /* YVGetAllNewsOperationTests.m */,
+				EF4CDEB31D73373D006CBE3C /* YVGetAllSortedResultsTests.m */,
+			);
+			name = GroupOperationsTests;
+			sourceTree = "<group>";
+		};
+		EF4CDEB51D7337F9006CBE3C /* SortedResultsOperationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEB61D733958006CBE3C /* YVSortResultsOperationTests.m */,
+			);
+			name = SortedResultsOperationTests;
+			sourceTree = "<group>";
+		};
+		EF4CDEB81D733AC8006CBE3C /* ServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDEB91D733AE9006CBE3C /* YVLoadNewsServiceTests.m */,
+			);
+			name = ServicesTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +517,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4CDEA91D732D04006CBE3C /* Main.storyboard in Resources */,
 				EF4CDE481D7308D5006CBE3C /* LaunchScreen.storyboard in Resources */,
 				EF4CDE451D7308D5006CBE3C /* Assets.xcassets in Resources */,
 			);
@@ -397,8 +630,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4CDE8F1D73133C006CBE3C /* YVParseOperation.m in Sources */,
+				EF4CDE721D731192006CBE3C /* YVFixedURLSessionManager.m in Sources */,
+				EF4CDE6A1D731114006CBE3C /* YVConstants.m in Sources */,
+				EF4CDE831D731303006CBE3C /* YVLoadDataOperation.m in Sources */,
+				EF4CDE6D1D731149006CBE3C /* YVNewsModel.m in Sources */,
 				EF4CDE3D1D7308D5006CBE3C /* AppDelegate.m in Sources */,
 				EF4CDE3A1D7308D5006CBE3C /* main.m in Sources */,
+				EF4CDE961D731375006CBE3C /* YVLoadNewsServiceImplementation.m in Sources */,
+				EF4CDE921D731356006CBE3C /* YVSortResultsOperation.m in Sources */,
+				EF4CDE8B1D731331006CBE3C /* YVGetAllNewsOperation.m in Sources */,
+				EF4CDE801D7312F7006CBE3C /* YVURLSessionOperation.m in Sources */,
+				EF4CDE8C1D731331006CBE3C /* YVGetNewsOperation.m in Sources */,
+				EF4CDE7D1D7312EF006CBE3C /* XMLDictionary.m in Sources */,
+				EF4CDE8A1D731331006CBE3C /* YVGetAllSortedResults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +651,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4CDEB01D73352E006CBE3C /* YVGetNewsOperationTests.m in Sources */,
+				EF4CDEB21D7335F9006CBE3C /* YVGetAllNewsOperationTests.m in Sources */,
+				EF4CDEA51D732875006CBE3C /* YVLoadDataOperationTests.m in Sources */,
+				EF4CDEBA1D733AE9006CBE3C /* YVLoadNewsServiceTests.m in Sources */,
 				EF4CDE531D7308D5006CBE3C /* RamblerTestTests.m in Sources */,
+				EF4CDEAD1D732FE8006CBE3C /* YVParseOperationTests.m in Sources */,
+				EF4CDEB41D73373D006CBE3C /* YVGetAllSortedResultsTests.m in Sources */,
+				EF4CDEB71D733958006CBE3C /* YVSortResultsOperationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
