@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4CDE3A1D7308D5006CBE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE391D7308D5006CBE3C /* main.m */; };
+		EF4CDE3D1D7308D5006CBE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE3C1D7308D5006CBE3C /* AppDelegate.m */; };
+		EF4CDE451D7308D5006CBE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4CDE441D7308D5006CBE3C /* Assets.xcassets */; };
+		EF4CDE481D7308D5006CBE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4CDE461D7308D5006CBE3C /* LaunchScreen.storyboard */; };
+		EF4CDE531D7308D5006CBE3C /* RamblerTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CDE521D7308D5006CBE3C /* RamblerTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4CDE4F1D7308D5006CBE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4CDE2D1D7308D5006CBE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4CDE341D7308D5006CBE3C;
+			remoteInfo = RamblerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4CDE351D7308D5006CBE3C /* RamblerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamblerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4CDE391D7308D5006CBE3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4CDE3B1D7308D5006CBE3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF4CDE3C1D7308D5006CBE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF4CDE441D7308D5006CBE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4CDE471D7308D5006CBE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4CDE491D7308D5006CBE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4CDE4E1D7308D5006CBE3C /* RamblerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RamblerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4CDE521D7308D5006CBE3C /* RamblerTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RamblerTestTests.m; sourceTree = "<group>"; };
+		EF4CDE541D7308D5006CBE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4CDE321D7308D5006CBE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4CDE4B1D7308D5006CBE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4CDE2C1D7308D5006CBE3C = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE371D7308D5006CBE3C /* RamblerTest */,
+				EF4CDE511D7308D5006CBE3C /* RamblerTestTests */,
+				EF4CDE361D7308D5006CBE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4CDE361D7308D5006CBE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE351D7308D5006CBE3C /* RamblerTest.app */,
+				EF4CDE4E1D7308D5006CBE3C /* RamblerTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4CDE371D7308D5006CBE3C /* RamblerTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE5D1D7308FA006CBE3C /* Classes */,
+				EF4CDE5E1D730907006CBE3C /* Resources */,
+				EF4CDE381D7308D5006CBE3C /* Supporting Files */,
+			);
+			path = RamblerTest;
+			sourceTree = "<group>";
+		};
+		EF4CDE381D7308D5006CBE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE391D7308D5006CBE3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4CDE511D7308D5006CBE3C /* RamblerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE521D7308D5006CBE3C /* RamblerTestTests.m */,
+				EF4CDE541D7308D5006CBE3C /* Info.plist */,
+			);
+			path = RamblerTestTests;
+			sourceTree = "<group>";
+		};
+		EF4CDE5D1D7308FA006CBE3C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE5F1D730968006CBE3C /* Constants */,
+				EF4CDE601D73098B006CBE3C /* ApplicationLayer */,
+				EF4CDE611D7309A5006CBE3C /* BusinessLogicLayer */,
+				EF4CDE631D7309BF006CBE3C /* PresentationLayer */,
+				EF4CDE621D7309B6006CBE3C /* PONSO */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EF4CDE5E1D730907006CBE3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE441D7308D5006CBE3C /* Assets.xcassets */,
+				EF4CDE461D7308D5006CBE3C /* LaunchScreen.storyboard */,
+				EF4CDE491D7308D5006CBE3C /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF4CDE5F1D730968006CBE3C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		EF4CDE601D73098B006CBE3C /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE641D730A0C006CBE3C /* AppDelegate */,
+			);
+			name = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		EF4CDE611D7309A5006CBE3C /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		EF4CDE621D7309B6006CBE3C /* PONSO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PONSO;
+			sourceTree = "<group>";
+		};
+		EF4CDE631D7309BF006CBE3C /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		EF4CDE641D730A0C006CBE3C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CDE3B1D7308D5006CBE3C /* AppDelegate.h */,
+				EF4CDE3C1D7308D5006CBE3C /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4CDE341D7308D5006CBE3C /* RamblerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4CDE571D7308D5006CBE3C /* Build configuration list for PBXNativeTarget "RamblerTest" */;
+			buildPhases = (
+				EF4CDE311D7308D5006CBE3C /* Sources */,
+				EF4CDE321D7308D5006CBE3C /* Frameworks */,
+				EF4CDE331D7308D5006CBE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamblerTest;
+			productName = RamblerTest;
+			productReference = EF4CDE351D7308D5006CBE3C /* RamblerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4CDE4D1D7308D5006CBE3C /* RamblerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4CDE5A1D7308D5006CBE3C /* Build configuration list for PBXNativeTarget "RamblerTestTests" */;
+			buildPhases = (
+				EF4CDE4A1D7308D5006CBE3C /* Sources */,
+				EF4CDE4B1D7308D5006CBE3C /* Frameworks */,
+				EF4CDE4C1D7308D5006CBE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4CDE501D7308D5006CBE3C /* PBXTargetDependency */,
+			);
+			name = RamblerTestTests;
+			productName = RamblerTestTests;
+			productReference = EF4CDE4E1D7308D5006CBE3C /* RamblerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4CDE2D1D7308D5006CBE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Юрий Воскресенский";
+				TargetAttributes = {
+					EF4CDE341D7308D5006CBE3C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EF4CDE4D1D7308D5006CBE3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EF4CDE341D7308D5006CBE3C;
+					};
+				};
+			};
+			buildConfigurationList = EF4CDE301D7308D5006CBE3C /* Build configuration list for PBXProject "RamblerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4CDE2C1D7308D5006CBE3C;
+			productRefGroup = EF4CDE361D7308D5006CBE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4CDE341D7308D5006CBE3C /* RamblerTest */,
+				EF4CDE4D1D7308D5006CBE3C /* RamblerTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4CDE331D7308D5006CBE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4CDE481D7308D5006CBE3C /* LaunchScreen.storyboard in Resources */,
+				EF4CDE451D7308D5006CBE3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4CDE4C1D7308D5006CBE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4CDE311D7308D5006CBE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4CDE3D1D7308D5006CBE3C /* AppDelegate.m in Sources */,
+				EF4CDE3A1D7308D5006CBE3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4CDE4A1D7308D5006CBE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4CDE531D7308D5006CBE3C /* RamblerTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4CDE501D7308D5006CBE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4CDE341D7308D5006CBE3C /* RamblerTest */;
+			targetProxy = EF4CDE4F1D7308D5006CBE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4CDE461D7308D5006CBE3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4CDE471D7308D5006CBE3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4CDE551D7308D5006CBE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF4CDE561D7308D5006CBE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4CDE581D7308D5006CBE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RamblerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RamblerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4CDE591D7308D5006CBE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RamblerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RamblerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4CDE5B1D7308D5006CBE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RamblerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RamblerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamblerTest.app/RamblerTest";
+			};
+			name = Debug;
+		};
+		EF4CDE5C1D7308D5006CBE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RamblerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RamblerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RamblerTest.app/RamblerTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4CDE301D7308D5006CBE3C /* Build configuration list for PBXProject "RamblerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4CDE551D7308D5006CBE3C /* Debug */,
+				EF4CDE561D7308D5006CBE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4CDE571D7308D5006CBE3C /* Build configuration list for PBXNativeTarget "RamblerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4CDE581D7308D5006CBE3C /* Debug */,
+				EF4CDE591D7308D5006CBE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4CDE5A1D7308D5006CBE3C /* Build configuration list for PBXNativeTarget "RamblerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4CDE5B1D7308D5006CBE3C /* Debug */,
+				EF4CDE5C1D7308D5006CBE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4CDE2D1D7308D5006CBE3C /* Project object */;
+}
