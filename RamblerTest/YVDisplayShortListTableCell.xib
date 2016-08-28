@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="YVDisplayShortListTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P3y-XD-sxd">
+                        <rect key="frame" x="10" y="10" width="50" height="49.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="WfB-dV-kTZ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6Z-NU-U2a">
+                        <rect key="frame" x="68" y="9" width="242" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNp-kO-94p">
+                        <rect key="frame" x="68" y="30" width="242" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.30801698825503354" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVB-8X-Lmf">
+                        <rect key="frame" x="68" y="44.5" width="242" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.30801698830000002" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gNp-kO-94p" secondAttribute="trailing" constant="10" id="1Ot-bR-jVw"/>
+                    <constraint firstItem="sVB-8X-Lmf" firstAttribute="top" secondItem="gNp-kO-94p" secondAttribute="bottom" id="EBE-Uy-hML"/>
+                    <constraint firstItem="gNp-kO-94p" firstAttribute="leading" secondItem="P3y-XD-sxd" secondAttribute="trailing" constant="8" id="V3C-aB-6J9"/>
+                    <constraint firstItem="L6Z-NU-U2a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="Vbo-jA-OZt"/>
+                    <constraint firstItem="gNp-kO-94p" firstAttribute="top" secondItem="L6Z-NU-U2a" secondAttribute="bottom" id="ZY4-6D-cPr"/>
+                    <constraint firstAttribute="bottom" secondItem="P3y-XD-sxd" secondAttribute="bottom" constant="10" id="afc-RL-E28"/>
+                    <constraint firstAttribute="trailing" secondItem="sVB-8X-Lmf" secondAttribute="trailing" constant="10" id="bi8-d5-HgO"/>
+                    <constraint firstItem="P3y-XD-sxd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="i8O-9f-JBh"/>
+                    <constraint firstItem="P3y-XD-sxd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="nLg-aZ-1i7"/>
+                    <constraint firstAttribute="trailing" secondItem="L6Z-NU-U2a" secondAttribute="trailing" constant="10" id="p52-6E-P4o"/>
+                    <constraint firstItem="L6Z-NU-U2a" firstAttribute="leading" secondItem="P3y-XD-sxd" secondAttribute="trailing" constant="8" id="qXn-wM-D2T"/>
+                    <constraint firstItem="sVB-8X-Lmf" firstAttribute="leading" secondItem="P3y-XD-sxd" secondAttribute="trailing" constant="8" id="vcU-gD-kGx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="sVB-8X-Lmf" id="eAQ-Qk-Ezw"/>
+                <outlet property="previewImageView" destination="P3y-XD-sxd" id="75c-3P-cBU"/>
+                <outlet property="sourceLabel" destination="gNp-kO-94p" id="zSQ-Tw-h6f"/>
+                <outlet property="titleLabel" destination="L6Z-NU-U2a" id="u20-J9-HXR"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
