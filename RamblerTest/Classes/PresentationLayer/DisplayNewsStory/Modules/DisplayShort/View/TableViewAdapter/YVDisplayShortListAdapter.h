@@ -18,6 +18,7 @@
 
 @end
 
+/// Adapter for table view
 @interface YVDisplayShortListAdapter : NSObject <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) id <YVDisplayShortListAdapterDelegate> delegate;

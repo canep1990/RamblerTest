@@ -12,6 +12,7 @@
 
 typedef void(^YVLoadNewsServiceCompletion)(NSArray <YVNewsModel *> * _Nullable models, NSError * _Nullable error);
 
+/// Service for loading news data
 @protocol YVLoadNewsService <NSObject>
 
 - (void)loadNewsWithCompletion:(_Nullable YVLoadNewsServiceCompletion)completion;

@@ -29,7 +29,7 @@
 - (void)testViewControllerWillShow
 {
     UIViewController *mockController = OCMClassMock([UIViewController class]);
-    [self.router presentArticleDetailsInterfaceFromViewController:mockController];
+    [self.router presentNewsDetailsInterfaceFromViewController:mockController];
     OCMVerify([mockController.navigationController presentViewController:OCMOCK_ANY animated:OCMOCK_ANY completion:OCMOCK_ANY]);
     [(id)mockController stopMocking];
     mockController = nil;

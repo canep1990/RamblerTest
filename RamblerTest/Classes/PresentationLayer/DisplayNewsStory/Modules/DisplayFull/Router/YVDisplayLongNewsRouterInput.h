@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "YVDisplayLongNewsPresenterInput.h"
 
+/// Router for presenting detailed view
 @protocol YVDisplayLongNewsRouterInput <NSObject>
 
 @property (strong, nonatomic) id <YVDisplayLongNewsPresenterInput> presenter;
 
-- (void)presentArticleDetailsInterfaceFromViewController:(UIViewController *)controller;
+- (void)presentNewsDetailsInterfaceFromViewController:(UIViewController *)controller;
 
 @end

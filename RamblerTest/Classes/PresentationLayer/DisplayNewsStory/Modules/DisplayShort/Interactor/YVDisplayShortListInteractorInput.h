@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "YVLoadNewsService.h"
 
+/// Interactor for getting news
 @protocol YVDisplayShortListInteractorInput <NSObject>
 
 - (void)getFilteredNewsWithCompletion:(YVLoadNewsServiceCompletion)completion;

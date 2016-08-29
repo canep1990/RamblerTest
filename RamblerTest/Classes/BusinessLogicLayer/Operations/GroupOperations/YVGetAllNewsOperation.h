@@ -10,6 +10,7 @@
 
 @class YVNewsModel;
 
+/// Group operation for loading all types of news
 @interface YVGetAllNewsOperation : INSGroupOperation
 @property (copy, nonatomic) NSArray <YVNewsModel *> *lentaModels;
 @property (copy, nonatomic) NSArray <YVNewsModel *> *gazetaModels;

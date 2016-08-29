@@ -25,7 +25,7 @@
 - (void)presentLongNewsModuleForSelectedNews:(YVNewsModel *)selectedModel
 {
     self.detailsRouter.presenter.newsModel = selectedModel;
-    [self.detailsRouter presentArticleDetailsInterfaceFromViewController:self.viewController];
+    [self.detailsRouter presentNewsDetailsInterfaceFromViewController:self.viewController];
 }
 
 @end

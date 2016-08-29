@@ -8,6 +8,7 @@
 
 #import "YVDisplayLongNewsRouterInput.h"
 
+/// Implementation of YVDisplayLongNewsRouterInput
 @interface YVDisplayLongNewsRouter : NSObject <YVDisplayLongNewsRouterInput>
 
 @end

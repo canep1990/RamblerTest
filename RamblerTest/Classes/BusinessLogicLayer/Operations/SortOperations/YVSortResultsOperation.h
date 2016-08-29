@@ -9,6 +9,7 @@
 #import <INSOperationsKit/INSOperationsKit.h>
 #import "YVGetAllNewsOperation.h"
 
+/// Operation for sorting arrays
 @interface YVSortResultsOperation : INSOperation
 
 @property (copy, nonatomic) NSArray <YVNewsModel *> *sortedObjects;

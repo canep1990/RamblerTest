@@ -10,6 +10,7 @@
 
 @class YVNewsModel;
 
+/// Group operation for loading any type of news & parsing all the data
 @interface YVGetNewsOperation : INSGroupOperation
 - (instancetype)initWithURLType:(NSString *)urlType;
 @property (copy, nonatomic) NSArray <YVNewsModel *> *loadedModels;

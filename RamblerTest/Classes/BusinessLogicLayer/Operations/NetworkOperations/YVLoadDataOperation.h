@@ -9,6 +9,7 @@
 #import <INSOperationsKit/INSOperationsKit.h>
 #import "YVConstants.h"
 
+/// Operation for loading rss feed
 @interface YVLoadDataOperation : INSOperation
 
 - (instancetype)initWithURLType:(NSString *)urlType;

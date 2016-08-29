@@ -11,6 +11,7 @@
 #import "YVDisplayLongNewsViewInput.h"
 #import "YVDisplayLongNewsViewOutput.h"
 
+/// View for displaying full news information
 @interface YVDisplayLongNewsViewController : UIViewController <YVDisplayLongNewsViewInput>
 
 @property (weak, nonatomic) id <YVDisplayLongNewsViewOutput> presenter;

@@ -11,6 +11,7 @@
 #import "YVDisplayLongNewsRouterInput.h"
 #import "YVDisplayLongNewsRouter.h"
 
+/// Basic implementation of YVDisplayShortListRouterInput
 @interface YVDisplayShortListRouter : NSObject <YVDisplayShortListRouterInput>
 
 @property (strong, nonatomic) id <YVDisplayLongNewsRouterInput> detailsRouter;

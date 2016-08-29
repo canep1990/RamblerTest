@@ -22,7 +22,7 @@
     return self;
 }
 
-- (void)presentArticleDetailsInterfaceFromViewController:(UIViewController *)controller
+- (void)presentNewsDetailsInterfaceFromViewController:(UIViewController *)controller
 {
     YVDisplayLongNewsViewController *longNewsViewController = [self longNewsControllerFromStoryboard];
     longNewsViewController.presenter = (id <YVDisplayLongNewsViewOutput>)self.presenter;

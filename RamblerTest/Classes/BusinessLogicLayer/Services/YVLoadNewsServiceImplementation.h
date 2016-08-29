@@ -8,6 +8,7 @@
 
 #import "YVLoadNewsService.h"
 
+/// Implementation of YVLoadNewsService
 @interface YVLoadNewsServiceImplementation : NSObject <YVLoadNewsService>
 
 @end

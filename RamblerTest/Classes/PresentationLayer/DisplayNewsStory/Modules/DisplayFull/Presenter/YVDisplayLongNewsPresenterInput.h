@@ -10,6 +10,7 @@
 
 @class YVNewsModel;
 
+/// Input for long news presenter
 @protocol YVDisplayLongNewsPresenterInput <NSObject>
 
 @property (strong, nonatomic) YVNewsModel *newsModel;

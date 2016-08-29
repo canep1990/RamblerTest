@@ -11,6 +11,7 @@
 #import "YVDisplayShortListAdapter.h"
 #import "YVDisplayShortListViewOutput.h"
 
+/// View for showing the list of news objects
 @interface YVDisplayShortListViewController : UIViewController <YVDisplayShortListViewInput>
 
 @property (strong, nonatomic) IBOutlet UITableView *shortListTableView;

@@ -10,6 +10,7 @@
 
 @class YVNewsModel;
 
+/// Operation for parsing rss feed into array of YVNewsModel objects
 @interface YVParseOperation : INSOperation
 
 @property (copy, nonatomic) NSString *urlType;

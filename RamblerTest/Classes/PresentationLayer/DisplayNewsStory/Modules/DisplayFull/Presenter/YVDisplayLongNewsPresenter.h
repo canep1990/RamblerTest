@@ -10,6 +10,7 @@
 #import "YVDisplayLongNewsViewOutput.h"
 #import "YVDisplayLongNewsViewInput.h"
 
+/// Implementation of full news presenter
 @interface YVDisplayLongNewsPresenter : NSObject <YVDisplayLongNewsPresenterInput, YVDisplayLongNewsViewOutput>
 
 @end

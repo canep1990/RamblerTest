@@ -10,6 +10,7 @@
 
 @class YVNewsModel;
 
+/// Router for handling transition between modules
 @protocol YVDisplayShortListRouterInput <NSObject>
 
 @property (weak, nonatomic) UIViewController *viewController;

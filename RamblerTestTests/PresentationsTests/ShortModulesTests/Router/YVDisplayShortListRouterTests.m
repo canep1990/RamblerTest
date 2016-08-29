@@ -36,7 +36,7 @@
 - (void)testNewRouterCalled
 {
     [self.router presentLongNewsModuleForSelectedNews:OCMOCK_ANY];
-    OCMVerify([self.mockDetailsRouter presentArticleDetailsInterfaceFromViewController:OCMOCK_ANY]);
+    OCMVerify([self.mockDetailsRouter presentNewsDetailsInterfaceFromViewController:OCMOCK_ANY]);
 }
 
 @end
